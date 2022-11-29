@@ -1,0 +1,25 @@
+.bg-greeting-f {
+  background-color: aquamarine;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+button {
+  padding: 12px 17px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  background-color: white;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}

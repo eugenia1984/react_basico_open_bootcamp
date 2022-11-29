@@ -1,12 +1,12 @@
-# <img src="https://img.icons8.com/bubbles/50/null/react.png"/> Proyecto práctico dle curso React Básico en Open Bootcamp
+# <img src="https://img.icons8.com/bubbles/50/null/react.png"/> Proyecto práctico del curso React Básico en Open Bootcamp
 
 ---
 
-## :book: temas:
+## :book: Temas:
 
 ```
-1 - Introducción a React JS: teoria
-2 - Componentes y jerarquías: teoria
+1 - Introducción a React JS
+2 - Componentes y jerarquías
 3 - Los hooks de React
 4 - Estilos a un proyecto con React
 5 - Manejo de eventos
