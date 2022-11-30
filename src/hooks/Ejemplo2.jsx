@@ -25,11 +25,7 @@ const Ejemplo2 = () => {
     }
 
     /**
-    * Trabajando con UseEffect
-    */
-
-    /**
-    * ? Caso 1: Ejecutar SIEMPRE un snippet de código
+    * UseEffect - Caso 1: Ejecutar SIEMPRE un snippet de código
     * Cada vez que haya un cambio en el estado del componente
     * se ejecuta aquello que esté dentro del useEffect()
     */
@@ -41,7 +37,7 @@ const Ejemplo2 = () => {
     // });
 
     /**
-    * ? Caso 2: Ejecutar SOLO CUANDO CAMBIE CONTADOR1
+    * UseEffect - Caso 2: Ejecutar SOLO CUANDO CAMBIE CONTADOR1
     * Cada vez que haya un cambio en contador 1, se ejecuta lo que diga el useEffect()
     * En caso de que cambie contador2, no habrá ejecución
     */
@@ -53,7 +49,7 @@ const Ejemplo2 = () => {
     // }, [contador1]);
 
     /**
-    * ? Caso 2: Ejecutar SOLO CUANDO CAMBIE CONTADOR1 o CONTADOR2
+    * UseEffect - Caso 3: Ejecutar SOLO CUANDO CAMBIE CONTADOR1 o CONTADOR2
     * Cada vez que haya un cambio en contador 1, se ejecuta lo que diga el useEffect()
     * Cada vez que haya un cambio en contador 2, se ejecuta lo que diga el useEffect()
     */
@@ -71,9 +67,7 @@ const Ejemplo2 = () => {
             <h2>CONTADOR 1: {contador1}</h2>
             <h2>CONTADOR 2: {contador2}</h2>
             {/* Elemento referenciado */}
-            <h4 ref={miRef}>
-                Ejemplo de elemento referenciado
-            </h4>
+            <h4 ref={miRef}>Ejemplo de elemento referenciado</h4>
             {/* Botones para cambiar los contadores */}
             <div>
                 <button onClick={incrementar1}>Incrementar contador 1</button>
