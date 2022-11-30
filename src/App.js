@@ -2,6 +2,7 @@ import Greeting from './components/pure/greeting';
 import './App.css';
 import GreetingF from './components/pure/greetingF';
 import TaskListComponent from "./components/container/task_list.jsx";
+import Ejemplo1 from './hooks/Ejemplo1';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <GreetingF name="Euge" />
       {/* Componente de listado de tareas */}
       <TaskListComponent />
+      {/* Ejemplo de uso de hooks - useState */}
+      <Ejemplo1 />
     </div>
   );
 }
