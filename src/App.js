@@ -4,6 +4,7 @@ import GreetingF from './components/pure/greetingF';
 import TaskListComponent from "./components/container/task_list.jsx";
 import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
+import Ejemplo3 from './hooks/Ejemplo3';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       {/* Componente de listado de tareas */}
       <TaskListComponent />
       {/* Ejemplo de uso de hooks - useState */}
-      <Ejemplo1 />
+      {/*<Ejemplo1 />*/}
       {/* Ejemplo de uso de hooks - useState y useEffect */}
-      <Ejemplo2 />
+      {/* <Ejemplo2 /> */}
+      <Ejemplo3 />
     </div>
   );
 }

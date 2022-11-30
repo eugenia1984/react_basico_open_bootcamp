@@ -17,8 +17,8 @@
  
  const Componente1 = () => {
  
-     // Inicializamos un estado vacio que va a rellenarse con los
-     // datos del contexto del padre
+     // Inicializamos un estado vacio que va a rellenarse con
+     // los datos del contexto del padre
      const state = useContext(miContexto);
  
      return (
@@ -47,7 +47,7 @@
  }
  
  
- export default function MiComponenteConContexto() {
+ export default function Ejemplo3() {
  
      const estadoInicial = {
          token: '1234557',
